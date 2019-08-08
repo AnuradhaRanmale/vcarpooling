@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body background="C:\Users\Admin\Desktop\silver-texture.jpg">
+<div class="container" background="">
+
+	    
+	    <div class="topnav">
+  			<a class="active" href="#home">Home</a>
+ 		 	<a href="#register">Login</a>
+		</div>
+	    
+			<header>
+				<h1 align="center">User Registration</h1>
+            		</header> 
+            		      
+      <div  class="form">
+    		<form method="post" id="contactform"> 
+    			<p class="contact"><label for="name"> Full Name</label></p> 
+    			<input id="name" name="name" placeholder="First Middle Last" required="" tabindex="1" type="text"> 
+    			 
+    			<p class="contact"><label for="email">Email ID</label></p> 
+    			<input id="email" name="email" placeholder="example@domain.com" required="" type="email"> 
+
+			<p class="contact"><label for="mobileno">Mobile No.</label></p>
+			<input id="mobileno" name="mobileno" placeholder="mobile number" required="" type="text"> 
+			
+			<p class="contact"><label for="address">Address</label></p>
+			<input id="address" name="address" placeholder="Address" type="text">
+
+                
+                        <p class="contact"><label for="username">Create a username</label></p> 
+    			<input id="username" name="username" placeholder="username" required="" tabindex="2" type="text"> 
+    			 
+                        <p class="contact"><label for="password">Create a password</label></p> 
+    			<input type="password" id="password" name="password" required="">
+ 
+                        <p class="contact"><label for="repassword">Confirm your password</label></p> 
+    			<input type="password" id="repassword" name="repassword" required=""> 
+        
+               <p class="contact"><label for="bday">Birth Date</label></p>
+                <input type="date" name="bday">
+              
+
+  	        <p class="contact"><label>Gender </label></p>
+            <select class="select-style gender" name="gender">
+            <option value="select">i am..</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="others">Other</option>
+            </select><br><br>
+            
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="Register" type="submit"> 	 
+   </form> 
+</div>      
+</div>
+</body>
+</html>
